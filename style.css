@@ -62,18 +62,18 @@ footer {
     grid-template-columns: repeat(2, 1fr);
 }
 
-.ventajas {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(4, 1fr);
-}
-
 .ventaja {
     margin-top:10px;
     padding: 10px 10px 0 0;
     border-top: 2px solid rgb(255, 245, 245);
     animation: ventaja;
     animation-duration: 4s;
+}
+
+.ventajas {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 @keyframes ventaja {
