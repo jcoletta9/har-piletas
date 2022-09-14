@@ -1,0 +1,28 @@
+@import "./partials/variables";
+@import "./partials/reset";
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/titulos";
+@import "./partials/home";
+@import "./partials/productpage";
+
+body{
+    background-color: rgb(22, 22, 22);
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 1200px) {
+  
+  
+
+    body {
+        width: auto;
+    }
+    
+        
+  }

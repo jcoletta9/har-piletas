@@ -1,0 +1,71 @@
+
+.boxModelo {
+    background-color: gray;
+    height: 300px;
+    padding: 25px;
+}
+
+.modeloLoft{
+    background-image: $modeloLoft;
+}
+
+.modeloHouse{
+    background-image: $modeloHouse;
+}
+
+.modeloHorizon{
+    background-image: $modeloHorizon;
+}
+
+.modeloMagnum{
+    background-image: $modeloMagnum;
+}
+
+.modeloTitulo{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modeloTitulo h1 {
+    padding-top: 30px;
+}
+
+.modeloTitulo:hover{
+    opacity: 1;
+    background-color:rgba(22, 22, 22, 0.829)
+}
+
+.botonVerModelo {
+    background-color: rgba(172, 13, 13, 0.185);
+    width: 140px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+.botonVerModelo:hover {
+    background-color: rgba(172, 13, 13, 0.377);
+}
+
+
+
+@media (max-width: 1200px) {
+    
+
+.boxModelo {
+    background-color: gray;
+    height: 300px;
+    background-position: center;
+}
+
+.modeloTitulo{
+    opacity: 1;
+    background-color:rgba(22, 22, 22, 0.397);
+}
+
+}
+
